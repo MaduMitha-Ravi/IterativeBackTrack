@@ -1,7 +1,7 @@
 import sys
 sys.setrecursionlimit(10**6)
 
-class Backtrack_Assignment4():
+class Backtrack:
     def __init__(self):
         #10 digit problem so lets consider number_of_digits as 10
         self.number_of_digits = 10
@@ -52,6 +52,6 @@ class Backtrack_Assignment4():
                                                     
 
 # Main Class and method calls
-assign4 = Backtrack_Assignment4()
-assign4.backtrack_search()
+btsearch = Backtrack()
+btsearch.backtrack_search()
 
